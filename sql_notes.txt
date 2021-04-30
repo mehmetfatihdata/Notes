@@ -1,0 +1,72 @@
+What is Database? :
+A database is an organized collection of structured information, or data, 
+typically stored electronically in a computer system.
+
+Table - Rows - Columns 
+The information inside the database is grouped into tables. 
+A table in a database is called a database table. 
+In database world (Column = Attribute ** Row = Record ** Table = Relatıion)
+
+Typically, there are two main database storage types:
+Relational Database - SQL ** Non-Relational Database - NoSQL
+
+SQL(Structured Query Language) is a declarative language, not a procedural language.
+
+A query is a statement asking for the retrieval of information from the database.
+
+SELECT first_name FROM employees; (Keyword - Identifiers - Terminating Semicolon)
+
+SELECT DISTINCT : get unique values
+
+SELECT name FROM tracks;
+SELECT name, composer FROM tracks;
+SELECT * FROM albums;
+SELECT DISTINCT albumid FROM albums;
+SELECT DISTINCT composer FROM tracks;
+SELECT name FROM tracks;
+SELECT name FROM tracks WHERE composer = 'Jimi Hendrix';
+SELECT * FROM invoices WHERE total > 10;
+SELECT * FROM invoices WHERE total > 10 LIMIT 4;
+SELECT * FROM employees ORDER BY firstname DESC LIMIT 2;
+SELECT * FROM invoices WHERE total > 10 ORDER BY total DESC;
+
+SELECT * 
+FROM invoices
+WHERE NOT BillingCountry = 'USA' 
+AND BillingCity = 'Frankfurt' 
+ORDER BY DESC;
+
+SELECT * FROM invoices WHERE InvoiceDate
+BETWEEN "2009-01-01" AND "2011-01-01" ORDER BY InvoiceDate DESC LIMIT 1;
+
+SELECT FirstName, LastName, Country 
+FROM customers WHERE Country IN ( 'USA', 'Belgium') LIMIT 5;
+
+Operator	Description
+=		Equal to
+>		Greater than
+<		Less than
+>=		Greater than or equal
+<=		Less than or equal
+<>		Not equal. This operator may be written as != in some versions of SQL 
+BETWEEN		Test if a value is between a certain range of values
+LIKE		Determine if a character string matches a predefined pattern
+ IN		Test whether or a value matches any value in a list
+
+ORDER BY with two columns:
+SELECT * FROM employees ORDER BY gender DESC, first_name ASC;
+
+BETWEEN :
+SELECT *
+FROM employees
+WHERE salary BETWEEN 80000 AND 90000;
+
+LIKE :
+Percent (%): The % character matches any sequence of zero or more characters.
+Underscore ( _ ): The _ character matches any single character.
+
+'Out%' pattern matches any string beginning with "Out" such as "Outro".
+'s%' pattern matches any string that starts with "s" such as "silk", "soup", etc.
+'%per%' pattern matches any string containing "per" such as "percentile" and "peeper". 
+'s_n' pattern matches "son", "sun", etc. 
+'__te' pattern matches "mate", "Kate", "kate", etc.
