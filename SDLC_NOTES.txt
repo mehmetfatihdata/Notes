@@ -1,0 +1,88 @@
+Software Development Lifecycle (SDLC) is a systematic process to be followed 
+for a software project. 
+
+The SDLC process consists essentially of the following phases:
+
+1/Requirement Phase
+2/Design Phase
+3/Build/Development Phase
+4/Testing Phase
+5/Deployment/Deliver Phase
+6/Maintenance
+
+Phase-1 Requirement : SRS is a detailed description of a software system to be developed 
+with requirements. It's the most importaant phase. Design phase'e kadar olan kısım. 
+
+# Feasibilty Study : Reqıirement ile birlikte problemi anlama aşamasıdır. Sonraki 
+
+Phase-2 Design Phase : This is the high priority phase in a system's development life cycle 
+because the logical designing of the system is converted into physical designing. 
+
+Phase-3: Build/Development Phase : This phase is also known as coding phase. 
+Coding Phase is the longest phase of the SDLC process, 
+and it requires a more focused approach for the developer.
+
+Phase-4: Testing Phase : This phase is where you focus on investigation and discovery.
+
+Phase-5: Deployment/Deliver Phase : As soon as customers receive the product, 
+they are recommended first to do the beta testing.
+
+Phase-6: Maintenance Phase : Improve its performance, enhance security features
+and address customer's requirements.
+
+In any SDLC model, there are several characteristics of good testing:
+
+*For every development activity, there is a corresponding test activity
+*Each test level has test objectives specific to that level
+*Test analysis and design for a given test level begin during the 
+corresponding development activity
+*Testers participate in discussions to define and refine requirements and design, 
+and they are involved in reviewing work products as soon as drafts are available
+
+Verification focuses on the question :
+Is the deliverable built according to the specification?.
+
+Validation focuses on the question : 
+Is the deliverable fit for purpose, and does it provide a solution to the problem?.
+
+Waterfall Model:
+It illustrates the process of software development in a linear sequential flow. 
+
+The requirements are documented very well.
+The definition of a product is stable.
+Technology is comprehensible.
+Requirements are not ambiguous.
+Ample resources are available with the required expertise to support the product.
+The project is short.
+
+Iterative Model :
+
+The basic idea behind this method is to develop a system through repeated cycles (iterative)
+and in smaller portions at a time (incremental).
+
+Spiral Model :
+The spiral model is a risk-driven model of software process development.
+It is one of the best development models to follow 
+because of the risk analysis and risk handling at every phase.
+It is much more complex to manage than other SDLC models.
+
+V-Model :
+It is also known as Verification and Validation model.
+
+RAD Model:
+The RAD (Rapid Application Development) is a model that supports software development processes 
+to be carried out as quickly as possible.
+
+DevOps Model:
+The term DevOps is the short form of Development and Operations.
+
+As the Agile model addressed the gap between clients and developers, 
+DevOps addressed the gap between Developers and Operations.
+
+As the Agile model addressed the gap between clients and developers,
+DevOps addressed the gap between Developers and Operations.
+
+Phase : Plan, Code, Build, Test, Integrate, Deploy, Operate, Monitor
+
+Development + Operations + Quality Assurance
+
